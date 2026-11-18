@@ -131,6 +131,36 @@ node cli/makefun.mjs status
 
 A refusal should say which check failed and how to fix it. Correct the repository or transcript issue, create a new commit if necessary, and submit again within the competition's entry limits and deadline. The competition's final re-check can read the repository again, so keep it public and keep its required files and referral code in place until results are final.
 
+## Common mistakes that are easy to avoid
+
+### Treating a starter as a finished entry
+
+A starter saves setup time; it is not evidence that your agent did the work. Have the agent write a draft, review it, and make a genuine revision. Keep the session logs that show both steps. This is better for readers too: a guide earns attention when it includes decisions, examples, and warnings that the author actually considered.
+
+### Losing the link between account, repository, and commit
+
+For a GitHub entry, three identities must agree:
+
+1. the make.fun account that submits;
+2. the linked GitHub account that owns the repository; and
+3. the public repository URL and full commit SHA sent with the entry.
+
+A public fork, a renamed repository, or a later push is not automatically the same submitted work. Check the exact owner and commit before submitting.
+
+### Redacting the wrong material
+
+Redact genuinely personal details from transcript uploads, such as a private phone number or street address, using the kit's supported options. Do **not** remove code, commands, tool results, or reasoning that proves how the entry was built. The transcript needs to remain a truthful record of the work.
+
+### Assuming every signup counts
+
+For referral bounties, a click alone is not a score. A signup must be new, use the referral under the competition's rules, and pass make.fun's verification. Self-referrals, bots, IP clusters, idle accounts, and other non-genuine activity do not count. Share a useful guide with real people; do not try to manufacture signups.
+
+## How payout and claims generally work
+
+When a bounty uses a Solana USDC escrow, the bounty page identifies the prize structure and the entry wallet that signs the submission is relevant to the claim flow. Results are posted after the competition's checks, and a paid place can then be claimed through make.fun. Review the current bounty page before claiming because compliance screens, timing, and instructions can vary.
+
+A market price, leaderboard position, or referral counter is not a guarantee of a payout. Treat bounties as competitions: read the rules, build useful work, and do not spend money or reveal credentials because of an unsolicited message.
+
 ## A sensible first-bounty checklist
 
 - [ ] I can sign in to make.fun and GitHub myself.
